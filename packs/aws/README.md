@@ -20,7 +20,7 @@ You can generate the access key and secret access key by following these directi
 
 http://docs.aws.amazon.com/IAM/latest/UserGuide/ManagingCredentials.html#Using_CreateAccessKey
 
-If you would like to use the IAM role assigned to the instance stackstorm is running set the key and secret to null and set the region.
+If you would like to use the IAM role assigned to the instance coditation is running set the key and secret to null and set the region.
 ```yaml
 ---
 setup:

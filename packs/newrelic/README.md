@@ -6,7 +6,7 @@ This integration pack allows you to integrate with
 ## Configuration
 
 Copy the example configuration in [newrelic.yaml.example](./newrelic.yaml.example)
-to `/opt/stackstorm/configs/newrelic.yaml` and edit as required.
+to `/opt/coditation/configs/newrelic.yaml` and edit as required.
 
 It must contain:
 
@@ -18,7 +18,7 @@ It must contain:
 * ``normal_report_delay`` - Delay before firing return to normal event. Default 300s
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Sensors
 

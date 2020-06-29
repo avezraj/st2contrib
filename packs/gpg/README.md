@@ -10,7 +10,7 @@ GnuGP executable.
 ## Configuration
 
 Copy the example configuration in [gpg.yaml.example](./gpg.yaml.example)
-to `/opt/stackstorm/configs/gpg.yaml` and edit as required.
+to `/opt/coditation/configs/gpg.yaml` and edit as required.
 
 Configuration options:
 
@@ -20,7 +20,7 @@ Configuration options:
 * ``debug`` - True to enable debug mode.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

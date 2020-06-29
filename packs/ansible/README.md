@@ -1,6 +1,6 @@
 # <img src="http://www.ansible.com/favicon.ico" width="32px" valign="-3px"/> Ansible Integration Pack
 This pack provides [Ansible](http://www.ansible.com/) integration to perform remote operations on both local and remote machines.
-After [pack installation](http://docs.stackstorm.com/packs.html#getting-a-pack) all ansible executable files are available in pack virtualenv and ready to use.
+After [pack installation](http://docs.coditation.com/packs.html#getting-a-pack) all ansible executable files are available in pack virtualenv and ready to use.
 
 ## Actions
 * `command` - Run single [Ad-Hoc command](http://docs.ansible.com/intro_adhoc.html). It has all the regular parameters of `ansible` executable.

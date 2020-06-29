@@ -3,7 +3,7 @@
 ### Configuration
 
 Copy the example configuration in [mistral.yaml.example](./mistral.yaml.example)
-to `/opt/stackstorm/configs/mistral.yaml` and edit as required.
+to `/opt/coditation/configs/mistral.yaml` and edit as required.
 
 It must contain:
 
@@ -11,7 +11,7 @@ It must contain:
 * ``api_version`` - Mistral API verson - e.g. 'v2'
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ### Actions
 

@@ -5,14 +5,14 @@ This pack allows for DigitalOcean integrations.
 ## Configuration
 
 Copy the example configuration in [digitalocean.yaml.example](./digitalocean.yaml.example)
-to `/opt/stackstorm/configs/digitalocean.yaml` and edit as required.
+to `/opt/coditation/configs/digitalocean.yaml` and edit as required.
 
 It must contain:
 
 * ``token`` - An API token generated in the admin interface
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

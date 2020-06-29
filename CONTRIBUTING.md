@@ -8,9 +8,9 @@ guidelines in place, so please take a few minutes to read this doc through.
 You can get additional information about StackStorm packs and contributions
 in the StackStorm documentation:
 
-- [Integration Packs](https://docs.stackstorm.com/packs.html)
-- [Create and Contribute a Pack](https://docs.stackstorm.com/reference/packs.html)
-- [Pack testing](https://docs.stackstorm.com/development/pack_testing.html)
+- [Integration Packs](https://docs.coditation.com/packs.html)
+- [Create and Contribute a Pack](https://docs.coditation.com/reference/packs.html)
+- [Pack testing](https://docs.coditation.com/development/pack_testing.html)
 
 ## General guidelines
 
@@ -24,13 +24,13 @@ in the StackStorm documentation:
 
 * It's important that all packs remain stable and reliable, so we recommend
   writing __automated tests__ for your actions and sensors: refer to the
-  [pack testing manual](https://docs.stackstorm.com/development/pack_testing.html)
+  [pack testing manual](https://docs.coditation.com/development/pack_testing.html)
   for details. While it's not mandatory, complex or mission-critical packs should
   normally have at least a few tests; smaller contributions can do with
   a reasonable amount of manual testing.
 
 * __Formatting your code__ should be done according to PEP8 (see
-  [StackStorm code style guide](https://docs.stackstorm.com/development/index.html#code-style-guide)
+  [StackStorm code style guide](https://docs.coditation.com/development/index.html#code-style-guide)
   for details) and will be evaluated with `flake8` and `pylint`. The styling tests
   are run automatically and the PR won't be accepted unless they pass, so it usually
   makes sense to have a linter in your text editor or lint the code manually before

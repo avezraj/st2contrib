@@ -6,7 +6,7 @@ This integration pack allows you to integrate with
 ## Configuration
 
 Copy the example configuration in [nest.yaml.example](./nest.yaml.example)
-to `/opt/stackstorm/configs/nest.yaml` and edit as required.
+to `/opt/coditation/configs/nest.yaml` and edit as required.
 
 * `username` - Nest.com username
 * `password` - Nest.com password
@@ -14,7 +14,7 @@ to `/opt/stackstorm/configs/nest.yaml` and edit as required.
 * `device` - Default device ID to query (Default: 0)
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

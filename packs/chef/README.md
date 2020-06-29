@@ -85,5 +85,5 @@ st2 run chef.apply hosts=chef_node minimal_ohai=true sudo=true execute="package(
 
 ## License and Authors
 
-* Author:: StackStorm (st2-dev) (<info@stackstorm.com>)
+* Author:: StackStorm (st2-dev) (<info@coditation.com>)
 * Author:: Denis Baryshev (<dennybaa@gmail.com>)

@@ -9,7 +9,7 @@ many others.
 ## Configuration
 
 Copy the example configuration in [jmx.yaml.example](./jmx.yaml.example)
-to `/opt/stackstorm/configs/jmx.yaml` and edit as required.
+to `/opt/coditation/configs/jmx.yaml` and edit as required.
 
 * ``hostname`` - JMX service hostname.
 * ``port`` - JMX service port.
@@ -20,7 +20,7 @@ to `/opt/stackstorm/configs/jmx.yaml` and edit as required.
 * ``attribute_keys`` - A list of attribute keys for compound attributes
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Requirements (for running)
 

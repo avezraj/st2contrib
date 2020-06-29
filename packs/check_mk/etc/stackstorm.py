@@ -10,7 +10,7 @@ import sys
 
 # Check_MK configuration
 
-CMK_CONFIG_FILE = "/etc/check_mk/stackstorm.conf"
+CMK_CONFIG_FILE = "/etc/check_mk/coditation.conf"
 CMK_ENV_PREFIX = 'NOTIFY_'
 
 # StackStorm configuration

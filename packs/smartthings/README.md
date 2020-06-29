@@ -10,7 +10,7 @@ called via StackStorm actions located within this pack.
 ## Configuration
 
 Copy the example configuration in [smartthings.yaml.example](./smartthings.yaml.example)
-to `/opt/stackstorm/configs/smartthings.yaml` and edit as required. It must contain:
+to `/opt/coditation/configs/smartthings.yaml` and edit as required. It must contain:
 
 * `api_token` - API token to send commands from StackStorm -> SmartThings
 * `api_endpoint` - HTTP endpoint for SmartThings SmartApp
@@ -19,7 +19,7 @@ to `/opt/stackstorm/configs/smartthings.yaml` and edit as required. It must cont
 See below for how to generate the SmartThings api_endpoint and api_key
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

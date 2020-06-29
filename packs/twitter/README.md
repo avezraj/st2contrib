@@ -4,12 +4,12 @@ Pack which allows integration with Twitter.
 
 ## Use cases
 
-* [HOWTO: Broadcast Twitter mentions about your Company to Slack channel](http://stackstorm.com/2014/12/22/monitor-twitter-and-fire-automations-based-on-twitter-keywords-using-stackstorm/)
+* [HOWTO: Broadcast Twitter mentions about your Company to Slack channel](http://coditation.com/2014/12/22/monitor-twitter-and-fire-automations-based-on-twitter-keywords-using-coditation/)
 
 ## Configuration
 
 Copy the example configuration in [twitter.yaml.example](./twitter.yaml.example)
-to `/opt/stackstorm/configs/twitter.yaml` and edit as required.
+to `/opt/coditation/configs/twitter.yaml` and edit as required.
 
 It should contain:
 
@@ -27,7 +27,7 @@ It should contain:
   For example: `en`, `de`, `jp`, etc.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ### Obtaining API credentials
 

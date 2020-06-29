@@ -25,7 +25,7 @@ output {
     http {
       content_type => json
       http_method => post
-      url => "http://_stackstorm_api_node:9101/v1/webhooks/logstash_http_metrics"
+      url => "http://_coditation_api_node:9101/v1/webhooks/logstash_http_metrics"
       workers => 4
     }
   }

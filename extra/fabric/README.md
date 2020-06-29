@@ -9,13 +9,13 @@ This integration pack will take existing fabfiles and convert the Fabric tasks i
 To use this conversion script, copy the entire fabric directory into your newly named pack.
 
 ```
-  cp st2contrib/extra/fabric /opt/stackstorm/packs/new_pack_name
+  cp st2contrib/extra/fabric /opt/coditation/packs/new_pack_name
 ```
 
 Then, copy your `fabfile` into the `actions/lib` directory of your new pack.
 
 ```
-  cp fabfile.py /opt/stackstorm/packs/new_pack_name/actions/lib
+  cp fabfile.py /opt/coditation/packs/new_pack_name/actions/lib
 ```
 
 ##Installation

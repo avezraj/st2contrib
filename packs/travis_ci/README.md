@@ -87,7 +87,7 @@ st2 run travisci.disable_hook hook_id=<repo_id>
 ## Configuration
 
 Copy the example configuration in [travis_ci.yaml.example](./travis_ci.yaml.example)
-to `/opt/stackstorm/configs/travis_ci.yaml` and edit as required.
+to `/opt/coditation/configs/travis_ci.yaml` and edit as required.
 
 It must contain
 
@@ -99,4 +99,4 @@ Note: Access token is not the token you find in your profile. For more
 information, see [Authentication page](http://docs.travis-ci.com/api/#authentication).
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.

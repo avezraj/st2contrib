@@ -5,7 +5,7 @@ This pack allows integration with MQTT Brokers
 ## Configuration
 
 Copy the example configuration in [mqtt.yaml.example](./mqtt.yaml.example)
-to `/opt/stackstorm/configs/mqtt.yaml` and edit as required.
+to `/opt/coditation/configs/mqtt.yaml` and edit as required.
 
 * `hostname` - MQTT Broker to connect to
 * `subscribe` - An array of MQTT topics to subscribe to (sensor only)
@@ -21,7 +21,7 @@ to `/opt/stackstorm/configs/mqtt.yaml` and edit as required.
 * `ssl_key` - Path to SSL Key
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

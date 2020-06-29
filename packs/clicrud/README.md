@@ -42,7 +42,7 @@ This file hides the connectivity method and credentials from the actual composer
 
 Currently the connectivity method is also in the configuration file. This in the future may change. Everyone uses SSH right? (Just nod).
 
-Create the file `clicrud.yaml` in `/opt/stackstorm/configs`. It should contain something like this:
+Create the file `clicrud.yaml` in `/opt/coditation/configs`. It should contain something like this:
 
 ```
   ---

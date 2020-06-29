@@ -5,7 +5,7 @@ This pack allows for Zendesk integrations.
 ## Configuration
 
 Copy the example configuration in [zendesk.yaml.example](./zendesk.yaml.example)
-to `/opt/stackstorm/configs/zendesk.yaml` and edit as required.
+to `/opt/coditation/configs/zendesk.yaml` and edit as required.
 
 It must contain:
 
@@ -16,7 +16,7 @@ It must contain:
 To obtain a Zendesk API token, see the docs [here](https://developer.zendesk.com/rest_api/docs/core/introduction#api-token).
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

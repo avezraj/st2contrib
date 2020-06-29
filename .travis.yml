@@ -33,4 +33,4 @@ script:
   - ./scripts/travis.sh
 notifications:
   email:
-    - eng@stackstorm.com
+    - eng@coditation.com

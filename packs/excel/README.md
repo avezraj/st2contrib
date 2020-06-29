@@ -7,7 +7,7 @@ results from workflows in a format that is easily editable and formatable.
 
 ## Configuration File
 
-Copy and edit the excel.yaml.example into the /opt/stackstorm/configs directory.
+Copy and edit the excel.yaml.example into the /opt/coditation/configs directory.
 
 ## Important Notes about the Excel File
 

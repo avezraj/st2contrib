@@ -5,7 +5,7 @@ Pack which allows integration with Internet Relay Chat (IRC).
 ## Configuration
 
 Copy the example configuration in [irc.yaml.example](./irc.yaml.example)
-to `/opt/stackstorm/configs/irc.yaml` and edit as required.
+to `/opt/coditation/configs/irc.yaml` and edit as required.
 
 * ``nickname`` - Bot nickname.
 * ``server`` - Server to connect to in the `<hostname:port>` format. For
@@ -13,7 +13,7 @@ to `/opt/stackstorm/configs/irc.yaml` and edit as required.
 * ``channels`` - A list of channels to join and monitor.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Sensors
 
@@ -54,7 +54,7 @@ Example trigger payload:
         "host": "gateway/web/irccloud.com/x-uvv"
     },
     "timestamp": 1419166748,
-    "message": "hello stackstorm!"
+    "message": "hello coditation!"
 }
 ```
 

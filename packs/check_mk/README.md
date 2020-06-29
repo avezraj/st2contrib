@@ -14,47 +14,47 @@ Install the [StackStorm Check_MK integration pack](https://github.com/StackStorm
 
 ### Configure Check_MK to send events to StackStorm
 
-StackStorm Check_MK handler `stackstorm.py` is installed and sends all **relevant** events to
+StackStorm Check_MK handler `coditation.py` is installed and sends all **relevant** events to
 StackStorm. Use Check_MK to define **relevant** events.
 
 On StackStorm side, Check_MK events will fire a Check_MK trigger on each received event. You must
 manually register the `check_mk.event_handler` trigger type during setup. It can now be used in
-StackStorm [Rules](http://docs.stackstorm.com/rules.html) to define what actions to take on which
+StackStorm [Rules](http://docs.coditation.com/rules.html) to define what actions to take on which
 events, based on supplied criteria.
 
 Here are step-by-step instructions:
 
 1. Register StackStorm Check_MK trigger:
 
-        st2 trigger create /opt/stackstorm/packs/check_mk/triggers/event_handler.yaml
+        st2 trigger create /opt/coditation/packs/check_mk/triggers/event_handler.yaml
 
     If you're using StackStorm v1.5+ this will be automatically registered like actions, sensors, etc.
 
 2. Copy StackStorm Check_MK handler and config to Check_MK directories:
 
-        cd /opt/stackstorm/packs/check_mk/
-        sudo cp etc/stackstorm.conf /etc/check_mk/stackstorm.conf
+        cd /opt/coditation/packs/check_mk/
+        sudo cp etc/coditation.conf /etc/check_mk/coditation.conf
         # Your local Check_MK installation path might differ
-        sudo cp etc/stackstorm.py /omd/sites/<master>/local/share/check_mk/notifications/stackstorm.py
-        sudo chmod +x /omd/sites/<master>/local/share/check_mk/notifications/stackstorm.py
+        sudo cp etc/coditation.py /omd/sites/<master>/local/share/check_mk/notifications/coditation.py
+        sudo chmod +x /omd/sites/<master>/local/share/check_mk/notifications/coditation.py
 
     If Check_MK is running on another box, these are the files to get to that box. If running
     replicated Check_MK, these must be placed on your master Check_MK node/site. You must adjust
     the path to your local Check_MK installation appropriately. Example is shown with OMD-based
     install using a master node/site creatively named `master`.
 
-3. Set up StackStorm endpoints and credentials in [`stackstorm.conf`](etc/stackstorm.conf).
+3. Set up StackStorm endpoints and credentials in [`coditation.conf`](etc/coditation.conf).
 
 4. Install the StackStorm handler dependencies on the Check_MK master node:
 
-        pip install -r /opt/stackstorm/packs/check_mk/requirements.txt
+        pip install -r /opt/coditation/packs/check_mk/requirements.txt
 
 5. Test the handler manually.
 
         cd /omd/sites/<master>/local/share/check_mk/notifications/
         # Check_MK passes data to notification scripts via environment variables
-        source /opt/stackstorm/packs/check_mk/etc/sample_event.sh
-        ./stackstorm.py
+        source /opt/coditation/packs/check_mk/etc/sample_event.sh
+        ./coditation.py
         # You'd see something like the following if the test succeeds
         Sent event to StackStorm. HTTP_CODE: 200. TRACE_TAG: a27b817e-f24d-4d24-be75-dcb8a47204d0
 

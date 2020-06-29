@@ -1,6 +1,6 @@
 # Victorops
 
-This action enables the integration of Victorops into stackstorm. It is capable of performing the following actions
+This action enables the integration of Victorops into coditation. It is capable of performing the following actions
 1. Launch an incident by giving `severity ('INFO', 'WARNING', 'CRITICAL')`, `entity` and a `message` 
 2. Send acknowledgment of any incident using its `entity` id and a `message` indicating acknowledgment
 3. Recover an incident by giving `entity` id and a `message` indicating how the incident was recovered
@@ -8,7 +8,7 @@ This action enables the integration of Victorops into stackstorm. It is capable 
 # Configuration
 
 Copy the example configuration in [victorops.yaml.example](./victorops.yaml.example)
-to `/opt/stackstorm/configs/victorops.yaml` and edit as required.
+to `/opt/coditation/configs/victorops.yaml` and edit as required.
 
 It must contain:
 
@@ -16,7 +16,7 @@ It must contain:
 * `routing_key` - An API token generated in the admin interface
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## How to get API key
 

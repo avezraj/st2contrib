@@ -18,7 +18,7 @@ An example pack has been included in this pack to show the integration of Servic
 
 ### Outgoing Integration
 
-* `instance_name` - Upstream Instance Name (e.x.: stackstorm)
+* `instance_name` - Upstream Instance Name (e.x.: coditation)
 * `username` - Username of service account
 * `password` - Password of service account
 

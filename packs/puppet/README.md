@@ -41,7 +41,7 @@ configuration items. Similarly, `client_cert_path`, `client_cert_key_path`,
 `ca_cert_path` are now top-level items, not under `auth`.
 
 Copy the example configuration in [puppet.yaml.example](./puppet.yaml.example)
-to `/opt/stackstorm/configs/puppet.yaml` and edit as required.
+to `/opt/coditation/configs/puppet.yaml` and edit as required.
 
 * `hostname` - hostname of the puppet master
 * `port` - port of the puppet master
@@ -50,7 +50,7 @@ to `/opt/stackstorm/configs/puppet.yaml` and edit as required.
 * `ca_cert_path` - path to the CA cert file
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 Remote actions require no configuration. You simply need to specify server to
 run the action on when running the action (same as with other remote actions).

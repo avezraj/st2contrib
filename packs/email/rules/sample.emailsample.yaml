@@ -15,5 +15,5 @@ action:
   parameters:
     body: 'We received an email'
     to: janedoe@gmail.com
-    from: stackstorm@yourcompanyname.com
+    from: coditation@yourcompanyname.com
     subject: 'Email Received'

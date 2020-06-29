@@ -16,5 +16,5 @@
         ref: "chatops.post_message"
         parameters:
             message: "Bandwidth Updated: {{trigger.instance}}, Tag: {{trigger.tag}}, Bandwidth: {{trigger.bandwidth}}, current: {{trigger.current}}, average: {{trigger.average}}"
-            channel: "stackstorm"
+            channel: "coditation"
 

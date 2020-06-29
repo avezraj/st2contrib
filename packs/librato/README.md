@@ -5,7 +5,7 @@ This pack allows for Librato integrations.
 ## Configuration
 
 Copy the example configuration in [librato.yaml.example](./librato.yaml.example)
-to `/opt/stackstorm/configs/librato.yaml` and edit as required.
+to `/opt/coditation/configs/librato.yaml` and edit as required.
 
 It must contain:
 
@@ -13,7 +13,7 @@ It must contain:
 * ``token`` - Librato token
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

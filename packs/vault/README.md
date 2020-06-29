@@ -5,7 +5,7 @@ This pack is for Hashicorp Vault integrations
 ## Configuration
 
 Copy the example configuration in [vault.yaml.example](./vault.yaml.example)
-to `/opt/stackstorm/configs/vault.yaml` and edit as required.
+to `/opt/coditation/configs/vault.yaml` and edit as required.
 
 It should contain:
 
@@ -15,7 +15,7 @@ It should contain:
 * `verify` - Whether to verify the SSL certificate or not
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

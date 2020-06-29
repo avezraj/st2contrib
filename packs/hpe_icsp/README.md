@@ -5,7 +5,7 @@ Pack to communicate with HPE's Insight Control Server Provisioning Application. 
 ## Connection Configuration
 
 Copy the example configuration in [hpe_icsp.yaml.example](./hpe_icsp.yaml.example)
-to `/opt/stackstorm/configs/hpe_icsp.yaml` and edit as required.
+to `/opt/coditation/configs/hpe_icsp.yaml` and edit as required.
 
 ```yaml
   host:
@@ -17,7 +17,7 @@ to `/opt/stackstorm/configs/hpe_icsp.yaml` and edit as required.
 Each element of the above can be independently overridden using the "connection_data" object parameter for each action.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Usage considerations
 ### API Versions

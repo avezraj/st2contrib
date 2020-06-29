@@ -29,7 +29,7 @@ class AnsibleBaseRunner(object):
         Modify PATH env variable by prepending virtualenv path with ansible binaries.
         This way venv ansible has precedence over globally installed ansible.
         """
-        venv_path = '/opt/stackstorm/virtualenvs/ansible/bin'
+        venv_path = '/opt/coditation/virtualenvs/ansible/bin'
         old_path = os.environ.get('PATH', '').split(':')
         new_path = [venv_path] + old_path
 

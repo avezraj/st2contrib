@@ -8,7 +8,7 @@ This pack must be used on the same private network as the Hue bridge.
 ## Configuration
 
 Copy the example configuration in [hue.yaml.example](./hue.yaml.example)
-to `/opt/stackstorm/configs/hue.yaml` and edit as required.
+to `/opt/coditation/configs/hue.yaml` and edit as required.
 
 It must contain:
 
@@ -16,7 +16,7 @@ It must contain:
 * `client_identifier` API Key from the Philips Hue Bridge
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## First Run
 

@@ -8,7 +8,7 @@ with Python runners. Some broken actions have been removed. Some output has chan
 If you are using Sensu actions, please check your workflows & rules.
 
 ### Prerequisites
-Sensu and StackStorm, up and running. See installation for [Sensu](http://sensuapp.org/docs/latest/installation/) and [StackStorm](http://docs.stackstorm.com/install).
+Sensu and StackStorm, up and running. See installation for [Sensu](http://sensuapp.org/docs/latest/installation/) and [StackStorm](http://docs.coditation.com/install).
 
 ## Setup
 ### Install Sensu pack on StackStorm
@@ -22,7 +22,7 @@ Sensu and StackStorm, up and running. See installation for [Sensu](http://sensua
 	    st2 action list --pack=sensu
 
 2. Copy the example configuration in [sensu.yaml.example](./sensu.yaml.example)
-to `/opt/stackstorm/configs/sensu.yaml` and edit as required. It must contain:
+to `/opt/coditation/configs/sensu.yaml` and edit as required. It must contain:
 
 * ``host`` - Host where Sensu API endpoint is running
 * ``port`` - Sensu API port (default 4567)
@@ -40,15 +40,15 @@ to `/opt/stackstorm/configs/sensu.yaml` and edit as required. It must contain:
 
 StackStorm Sensu handler `st2_handler.py` is installed on Sensu and sends all **relevant** events to StackStorm. Use Sensu configuration to define **relevant** events.
 
-On StackStorm side, Sensu events will fire a Sensu trigger on each received event. The `sensu.event_handler` trigger type is auto-registered by the handler; you can run the `st2_handler.py` manually to get the trigger created. Once created, you can see the trigger(http://docs.stackstorm.com/rules.html#trigger) with `st2 trigger list --pack=sensu`. It now can be used in StackStorm [Rules](http://docs.stackstorm.com/rules.html) to define what actions to take on which events, based on supplied criteria.
+On StackStorm side, Sensu events will fire a Sensu trigger on each received event. The `sensu.event_handler` trigger type is auto-registered by the handler; you can run the `st2_handler.py` manually to get the trigger created. Once created, you can see the trigger(http://docs.coditation.com/rules.html#trigger) with `st2 trigger list --pack=sensu`. It now can be used in StackStorm [Rules](http://docs.coditation.com/rules.html) to define what actions to take on which events, based on supplied criteria.
 
 Here are step-by-step instructions:
 
 1. Copy StackStorm Sensu handler and config to Sensu handlers dir:
 
     ```
-    sudo cp /opt/stackstorm/packs/sensu/etc/st2_handler.py /etc/sensu/handlers/st2_handler.py
-    sudo cp /opt/stackstorm/packs/sensu/etc/st2_handler.conf /etc/sensu/handlers/st2_handler.conf
+    sudo cp /opt/coditation/packs/sensu/etc/st2_handler.py /etc/sensu/handlers/st2_handler.py
+    sudo cp /opt/coditation/packs/sensu/etc/st2_handler.conf /etc/sensu/handlers/st2_handler.conf
     sudo chmod +x /etc/sensu/handlers/st2_handler.py
 ```
 	If Sensu is running on another box, these are the files to get to that box.
@@ -180,7 +180,7 @@ Let's take monitoring StackStorm itself for end-to-end example. Sensu will watch
 3. Now back to StackStorm. Create StackStorm rule definition (This sample is a part of the pack, [`rules/sample.on_action_runner_check.yaml`](rules/sample.on_action_runner_check.yaml)):
 
     ```yaml
-    cat /opt/stackstorm/packs/sensu/rules/sample.on_action_runner_check
+    cat /opt/coditation/packs/sensu/rules/sample.on_action_runner_check
     ---
       name: sample.on_actoin_runner_check
       description: Sample rule that dogfoods st2.
@@ -204,7 +204,7 @@ Let's take monitoring StackStorm itself for end-to-end example. Sensu will watch
     and load the rule:
 
     ```
-    cd /opt/stackstorm/packs/sensu
+    cd /opt/coditation/packs/sensu
     st2 rule create rules/sample.on_action_runner_check.yaml
     ```
     StackStorm is now waiting for Sensu event.

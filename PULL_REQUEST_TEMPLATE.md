@@ -5,4 +5,4 @@ Please open all pull requests against the corresponding pack repository on the
 StackStorm-Exchange Github organization.
 
 You can also find a list of all the official packs with links to the corresponding
-Github repositories at https://exchange.stackstorm.org/.
+Github repositories at https://exchange.coditation.org/.

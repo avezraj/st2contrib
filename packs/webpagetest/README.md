@@ -9,7 +9,7 @@ Requires:
 ## Configuration
 
 Copy the example configuration in [webpagetest.yaml.example](./webpagetest.yaml.example)
-to `/opt/stackstorm/configs/webpagetest.yaml` and edit as required.
+to `/opt/coditation/configs/webpagetest.yaml` and edit as required.
 
 It must contain:
 
@@ -17,7 +17,7 @@ It must contain:
  * `key` - The API key you received from the [WebPageTest Public Instance](http://www.webpagetest.org/getkey.php). Private instances of WebPageTest do not require a key.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

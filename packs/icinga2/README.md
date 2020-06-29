@@ -1,4 +1,4 @@
-# Icinga2 Integration Pack for Stackstorm
+# Icinga2 Integration Pack for Coditation
 
 ## Description
 
@@ -8,7 +8,7 @@ Read http://docs.icinga.org/icinga2/latest/doc/module/icinga2/toc#!/icinga2/late
 ## Configuration
 
 Copy the example configuration in [icinga2.yaml.example](./icinga2.yaml.example)
-to `/opt/stackstorm/configs/icinga2.yaml` and edit as required.
+to `/opt/coditation/configs/icinga2.yaml` and edit as required.
 
 * `api_url` - URL to the API stream, e.g. `https://localhost:5665/v1`
 * `api_state_change_user` - API user name created on the Icinga2 host, which you are going to connect to, e.g. `root`
@@ -17,7 +17,7 @@ to `/opt/stackstorm/configs/icinga2.yaml` and edit as required.
 * `api_password` - password for the API user
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

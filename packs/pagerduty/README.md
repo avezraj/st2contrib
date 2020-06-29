@@ -10,7 +10,7 @@ This action enables the integration of PagerDuty into StackStorm. It is capable 
 # Configuration
 
 Copy the example configuration in [pagerduty.yaml.example](./pagerduty.yaml.example)
-to `/opt/stackstorm/configs/pagerduty.yaml` and edit as required.
+to `/opt/coditation/configs/pagerduty.yaml` and edit as required.
 
 * `subdomain:` name of subdomain
 * `api_key:` API-KEY
@@ -18,7 +18,7 @@ to `/opt/stackstorm/configs/pagerduty.yaml` and edit as required.
 * `debug:` optional debug flag. Set to True for additional logging
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Retrieving API Key from PagerDuty
 

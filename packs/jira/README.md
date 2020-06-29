@@ -5,7 +5,7 @@ This pack consists of a sample JIRA sensor and a JIRA action.
 ## Configuration
 
 Copy the example configuration in [jira.yaml.example](./jira.yaml.example)
-to `/opt/stackstorm/configs/jira.yaml` and edit as required.
+to `/opt/coditation/configs/jira.yaml` and edit as required.
 
 * ``url`` - URL of the JIRA instance (e.g. ``https://myproject.atlassian.net``)
 * ``rsa_cert_file`` - Path to the file with a private key.
@@ -19,7 +19,7 @@ to `/opt/stackstorm/configs/jira.yaml` and edit as required.
 To get these OAuth credentials, take a look at OAuth section bellow.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ### OAuth
 

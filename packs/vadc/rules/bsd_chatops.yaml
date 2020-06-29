@@ -11,5 +11,5 @@
         ref: "chatops.post_message"
         parameters:                        # optional
             message: "status: {{trigger.status}}, level: {{trigger.error_level}}, errors: {{trigger.errors}}"
-            channel: "stackstorm"
+            channel: "coditation"
 

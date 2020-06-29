@@ -5,7 +5,7 @@ Pack which allows integration with [Softlayer](https://www.softlayer.com/).
 ## Configuration
 
 Copy the example configuration in [softlayer.yaml.example](./softlayer.yaml.example)
-to `/opt/stackstorm/configs/softlayer.yaml` and edit as required.
+to `/opt/coditation/configs/softlayer.yaml` and edit as required.
 
 It should contain:
 
@@ -15,7 +15,7 @@ It should contain:
 * ``swift_region`` - Not used yet, will be the Softlayer Object Storage region to work with.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

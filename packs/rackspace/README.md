@@ -10,7 +10,7 @@ Cloud](http://www.rackspace.com/cloud) services such as:
 ## Configuration
 
 Copy the example configuration in [rackspace.yaml.example](./rackspace.yaml.example)
-to `/opt/stackstorm/configs/rackspace.yaml` and edit as required.
+to `/opt/coditation/configs/rackspace.yaml` and edit as required.
 
 It should contain:
 
@@ -21,7 +21,7 @@ It should contain:
 * ``debug`` - True to enable debug mode.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

@@ -21,7 +21,7 @@ class RabbitMQQueueSensor(Sensor):
     messaging model as described in https://www.rabbitmq.com/tutorials/tutorial-one-python.html.
 
     It is capable of simultaneously consuming from multiple queues. Each message is
-    dispatched to stackstorm as a `rabbitmq.new_message` TriggerInstance.
+    dispatched to coditation as a `rabbitmq.new_message` TriggerInstance.
     """
     def __init__(self, sensor_service, config=None):
         super(RabbitMQQueueSensor, self).__init__(sensor_service=sensor_service, config=config)

@@ -5,7 +5,7 @@ Basic integration with Splunk Enterprise, Splunk Cloud, or Splunk Light: http://
 ## Configuration
 
 Copy the example configuration in [splunk.yaml.example](./splunk.yaml.example)
-to `/opt/stackstorm/configs/splunk.yaml` and edit as required.
+to `/opt/coditation/configs/splunk.yaml` and edit as required.
 
 It should contain:
 
@@ -15,7 +15,7 @@ It should contain:
 * ``password`` - Splunk password
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

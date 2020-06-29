@@ -42,11 +42,11 @@ Currently, the following actions listed bellow are supported:
 ## Configuration
 
 Copy the example configuration in [cisco_spark.yaml.example](./cisco_spark.yaml.example)
-to `/opt/stackstorm/configs/cisco_spark.yaml` and edit as required.
+to `/opt/coditation/configs/cisco_spark.yaml` and edit as required.
 
 It must contain:
 
 * `access_token` - The API access token, can be fetched from developer.ciscospark.com
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.

@@ -25,12 +25,12 @@ imap_mailboxes:
   gmail_main:
     server: "gmail.imap.com"
     port: 993
-    username: "james@stackstorm.com"
+    username: "james@coditation.com"
     password: "superawesomepassword"
     ssl: True
     download_attachments: False
   alternate:
-    server: "mail.stackstorm.net"
+    server: "mail.coditation.net"
     port: 143
     username: "stanley"
     password: "esteetew"
@@ -72,7 +72,7 @@ Example trigger payload:
     "from": "Tomaž Muraus<tomaz@tomaz.me>",
     "to": "Tomaz Muraus <tomaz.muraus@gmail.com>",
     "subject": "test email with attachment"
-    "body": "hello from stackstorm!\n",
+    "body": "hello from coditation!\n",
     "headers": [
         [
             "Delivered-To",
@@ -176,15 +176,15 @@ Example trigger payload:
     "has_attachments": true,
     "attachments": [
         {
-            "file_name": "hello stackstorm.txt",
+            "file_name": "hello coditation.txt",
             "datastore_key": "attachments-0d61eabdb749789c96853dcbbd933884",
             "content_type": "text/plain"
         }
     ],
     "mailbox_metadata": {
-        "server": "email.stackstorm.com",
+        "server": "email.coditation.com",
         "port": 993,
-        "user": "kami@stackstorm.com",
+        "user": "kami@coditation.com",
         "folder": "Process",
         "ssl": true
     }

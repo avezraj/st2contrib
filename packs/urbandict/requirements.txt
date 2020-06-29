@@ -1,1 +1,1 @@
--e git+https://github.com/Kami/py-urbandict.git@stackstorm_patched#egg=urbandict
+-e git+https://github.com/Kami/py-urbandict.git@coditation_patched#egg=urbandict

@@ -5,7 +5,7 @@ Pack which allows integration with [Twilio](https://www.twilio.com/) service.
 ## Configuration
 
 Copy the example configuration in [twilio.yaml.example](./twilio.yaml.example)
-to `/opt/stackstorm/configs/twilio.yaml` and edit as required.
+to `/opt/coditation/configs/twilio.yaml` and edit as required.
 
 It must contain:
 
@@ -17,7 +17,7 @@ Account sid and authentication token can be retrieved on the [Account
 Dashboard][https://www.twilio.com/user/account/] page.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

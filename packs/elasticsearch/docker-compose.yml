@@ -8,7 +8,7 @@ st2:
    - "9101:9101"
   command: /bin/bash -c "/root/st2/start.sh ; sleep infinity"
   volumes:
-   - ./:/opt/stackstorm/packs/elasticsearch
+   - ./:/opt/coditation/packs/elasticsearch
 elk:
   image: sebp/elk
   ports:

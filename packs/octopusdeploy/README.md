@@ -36,4 +36,4 @@ Update config.yaml to setup the connection to Octopus.
 * `host` - the host name of your Octopus server e.g. octopus.mydomain.com
 * `port` - the port your API service is running on, 443 by default
 
-a tutorial on this pack https://stackstorm.com/2015/10/01/octopusdeploy-integration-with-stackstorm/
+a tutorial on this pack https://coditation.com/2015/10/01/octopusdeploy-integration-with-coditation/

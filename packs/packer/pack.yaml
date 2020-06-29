@@ -5,7 +5,7 @@ name: packer
 description: Hashicorp Packer builder integration
 version: 0.1.0
 author: James Fryman
-email: james@stackstorm.com
+email: james@coditation.com
 keywords:
   - packer
   - provisioning

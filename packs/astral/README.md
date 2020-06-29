@@ -5,7 +5,7 @@ on sun position for a geo lat/long coordinates:
 
 ### Configuration file:
 
-Copy and edit the astral.yaml.example into the /opt/stackstorm/configs directory.
+Copy and edit the astral.yaml.example into the /opt/coditation/configs directory.
 
 ### Triggers:
 

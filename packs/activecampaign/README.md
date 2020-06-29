@@ -7,7 +7,7 @@ To mass-produce actions, see `etc/ac_api_gen.py`
 ## Configuration
 
 Copy the example configuration in [activecampaign.yaml.example](./activecampaign.yaml.example)
-to `/opt/stackstorm/configs/activecampaign.yaml` and edit as required.
+to `/opt/coditation/configs/activecampaign.yaml` and edit as required.
 
 * ``url`` - ActiveCampaign account URL
 * ``api_key`` - API Key

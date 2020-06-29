@@ -10,7 +10,7 @@ build:
             ## still false-positives after installing dependencies
             ## just disable 'imports_import_error' check
             #- sudo apt-get install -y software-properties-common
-            #- sudo add-apt-repository 'deb http://downloads.stackstorm.net/deb/ trusty_unstable main'
+            #- sudo add-apt-repository 'deb http://downloads.coditation.net/deb/ trusty_unstable main'
             #- sudo apt-get update
             #- sudo apt-get install -y --force-yes st2reactor st2common st2auth st2api st2actions st2debug
             #- for f in packs/*/requirements.txt; do pip install -r $f; done

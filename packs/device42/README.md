@@ -6,7 +6,7 @@ IT infrastructure
 ## Configuration
 
 Copy the example configuration in [device42.yaml.example](./device42.yaml.example)
-to `/opt/stackstorm/configs/device42.yaml` and edit as required.
+to `/opt/coditation/configs/device42.yaml` and edit as required.
 
 * `d42_server` - Device42 instance address (with protocol and without trailing slash)
 * `d42_username` - Device42 username
@@ -14,7 +14,7 @@ to `/opt/stackstorm/configs/device42.yaml` and edit as required.
 * `verify_certificate` - Set to `false` in case of self-signed SSL certificate
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Supported Actions
 ```

@@ -5,7 +5,7 @@ Pack provides many operations helping to manage your Elasticsearch indices and s
 ## Configuration
 
 Copy the example configuration in [elasticsearch.yaml.example](./elasticsearch.yaml.example)
-to `/opt/stackstorm/configs/elasticsearch.yaml` and edit as required.
+to `/opt/coditation/configs/elasticsearch.yaml` and edit as required.
 
 It must contain:
 
@@ -18,7 +18,7 @@ It must contain:
 * ``index`` - Index to query - e.g. 'logstash*'
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Curator based actions
 
@@ -191,5 +191,5 @@ st2 run elasticsearch.search.q host=elk q='message:my_log_event' prefix=logstash
 
 ## License and Authors
 
-* Author:: StackStorm (st2-dev) (<info@stackstorm.com>)
+* Author:: StackStorm (st2-dev) (<info@coditation.com>)
 * Author:: Denis Baryshev (<dennybaa@gmail.com>)

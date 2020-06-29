@@ -35,7 +35,7 @@ If ST2 is installed on the master, no local configuration is required.
 #### Configuration
 
 Copy the example configuration in [salt.yaml.example](./salt.yaml.example)
-to `/opt/stackstorm/configs/salt.yaml` and edit as required.
+to `/opt/coditation/configs/salt.yaml` and edit as required.
 
 It must contain this:
 
@@ -64,9 +64,9 @@ One can also use the generic "runner" action to execute arbitrary runners and ex
 
 ### Actions
 
-Saltstack runner/execution module function calls are represented as Stackstorm actions. Considering Saltstack's [`archive` execution module](http://docs.saltstack.com/en/2014.7/ref/modules/all/salt.modules.archive.html#module-salt.modules.archive), every function would be exposed as an Stackstorm action.
+Saltstack runner/execution module function calls are represented as Coditation actions. Considering Saltstack's [`archive` execution module](http://docs.saltstack.com/en/2014.7/ref/modules/all/salt.modules.archive.html#module-salt.modules.archive), every function would be exposed as an Coditation action.
 
-Stackstorm actions for this pack are namespaced relative to their Saltstack NetAPI client name and module name. Thus having the form:
+Coditation actions for this pack are namespaced relative to their Saltstack NetAPI client name and module name. Thus having the form:
 
 `[NetAPI client name]_[module name].[function name]`
 

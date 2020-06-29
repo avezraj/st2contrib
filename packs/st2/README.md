@@ -7,7 +7,7 @@ Requires StackStorm >= `v0.8.0`
 ## Configuration:
 
 Copy the example configuration in [st2.yaml.example](./st2.yaml.example)
-to `/opt/stackstorm/configs/st2.yaml` and edit as required.
+to `/opt/coditation/configs/st2.yaml` and edit as required.
 
 * `base_url` - Base URL for the StackStorm API server endpoints (i.e.
   ``http://localhost``). If only the base URL is provided, the client will
@@ -15,13 +15,13 @@ to `/opt/stackstorm/configs/st2.yaml` and edit as required.
   URL is provided, it will override the base URL and default port. If no value
   is provided will assume the pack is expected to work with current StackStorm
   instance and pick up appropriate values from the actions environment. See
-  http://docs.stackstorm.com/actions.html#common-environment-variables-available-to-the-actions
+  http://docs.coditation.com/actions.html#common-environment-variables-available-to-the-actions
 * `api_url` - Base API url for the StackStorm API Server endpoint. (e.g.: https://localhost/api)
 * `auth_url` - Base AUTH url for the StackStorm Auth Server endpoint. (e.g.: https://localhost/auth)
 * `api_key` - API key used to authenticate against the StackStorm API.
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 

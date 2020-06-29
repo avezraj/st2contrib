@@ -6,7 +6,7 @@ functionality to perform actions on Bitbucket through StackStorm.
 ## Configuration
 
 Copy the example configuration in [bitbucket.yaml.example](./bitbucket.yaml.example)
-to `/opt/stackstorm/configs/bitbucket.yaml` and edit as required.
+to `/opt/coditation/configs/bitbucket.yaml` and edit as required.
 
 It must contain:
 
@@ -15,7 +15,7 @@ It must contain:
 * ``email`` - Email associated with bitbucket username
 
 You can also use dynamic values from the datastore. See the
-[docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
+[docs](https://docs.coditation.com/reference/pack_configs.html) for more info.
 
 ## Actions
 
@@ -202,7 +202,7 @@ This has a number of pre-dependancies:
 - The repository being configured in:
 
 ```bash
-/opt/stackstorm/packs/packs/config.yaml
+/opt/coditation/packs/packs/config.yaml
 ```
 
 - Setting Workflow / Hooks / Post-Receive WebHooks pointing at the URL:
@@ -220,4 +220,4 @@ st2 rule enable bitbucket.post_receive_webhook
 *Important:* The BitBucket server (or cloud) needs to be able to reach
 your StackStorm server and consider the SSL cert as valid. The
 `ST2-API-Key` should be generated as per the instructions at
-https://docs.stackstorm.com/authentication.html.
+https://docs.coditation.com/authentication.html.

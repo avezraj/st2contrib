@@ -8,7 +8,7 @@ appropriate brcd\_vtm\_\* config keys. See Configuration section below.
 
 ## Configuration File
 
-You must create a configuration file:  `/opt/stackstorm/configs/vadc.yaml`
+You must create a configuration file:  `/opt/coditation/configs/vadc.yaml`
 
 It should look like this:
 ```
